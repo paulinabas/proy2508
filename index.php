@@ -13,23 +13,25 @@ and open the template in the editor.
         <h1>  </h1>
             
         <p>
-            Es un parrafooooooooooooooooo!!
-
+            Es un parrafooooooooooooooooo""
+            
+            
         </p> 
         
+        
+
+        
         <?php
-$mysqli = new mysqli("localhost", "root", "avaras08", "Persona");
-if ($mysqli->connect_errno) {
-echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
-}
-echo $mysqli->host_info . "\n";
-
-
+        
+        
+            
+        // put your code here
         ?>
         
         
     </body>
 </html>
 
- http://php.net/manual/en/mysqli.quickstart.connections.php 
+
+/*   http://php.net/manual/en/mysqli.quickstart.connections.php */
 
